@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPF_Uvod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Uvod"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtbox" HorizontalAlignment="Left" Height="50" Margin="300,60,0,0" TextWrapping="Wrap" Text="Zadej jméno" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="button" Content="Vypsání jména" HorizontalAlignment="Left" Margin="300,120,0,0" VerticalAlignment="Top" Width="200" Height="100" Click="Button_Click"/>
+        <Label x:Name="label1" Content="Jméno" HorizontalAlignment="Left" Margin="300,250,0,0" VerticalAlignment="Top" Width="200"/>
+
+    </Grid>
+</Window>
